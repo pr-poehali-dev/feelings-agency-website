@@ -101,18 +101,25 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-rose-50 to-white">
-        <div className="container mx-auto px-4 text-center">
-          <h1
-            className="text-5xl md:text-6xl font-bold text-burgundy mb-6"
-            style={{ fontFamily: "Cormorant, serif" }}
-          >
-            Свадьба вашей мечты
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Создаем незабываемые моменты с любовью к деталям. Полный цикл
-            организации свадеб — от идеи до воплощения вашей мечты.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1
+                className="text-5xl md:text-6xl font-bold text-burgundy mb-6"
+                style={{ fontFamily: "Cormorant, serif" }}
+              >
+                СОЗДАДИМ СВАДЬБУ ВАШЕЙ МЕЧТЫ
+              </h1>
+            </div>
+            <div>
+              <img
+                src="/img/8bc807eb-84c7-4a35-a3a3-a96ca2b149bc.jpg"
+                alt="Элегантная свадебная церемония"
+                className="rounded-lg shadow-lg w-full"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Button
               size="lg"
               className="bg-burgundy hover:bg-burgundy/90 text-white px-8 py-3"
